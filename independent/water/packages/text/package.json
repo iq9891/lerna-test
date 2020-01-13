@@ -1,0 +1,61 @@
+{
+  "name": "@iq9891lt/text",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "李梦龙 <649076408@qq.com>",
+  "homepage": "https://github.com/iq9891/lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/text.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name text 'index.ts' --mode lib"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iq9891/lerna-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iq9891/lerna-test/issues"
+  },
+  "dependencies": {
+    "core-js": "^3.4.4",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-typescript": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lerna": "^3.20.2",
+    "lint-staged": "^9.5.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "typescript": "~3.5.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-property-decorator": "^8.3.0"
+  }
+}
